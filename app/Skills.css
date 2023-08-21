@@ -1,0 +1,28 @@
+.section-3 {
+    width: 100%;
+ 
+  }
+  .text-skills {
+    position: absolute;
+    font-size: 7rem;
+    color: #3a3939;
+    filter: opacity(0.2);
+  }
+
+  .description h2 {
+    font-size: 1.5rem;
+    color: #e87eff;
+  }
+  .description p {
+    width: 100%;
+    line-height: 2rem;
+    font-size: 0.875rem;
+    color: #adabab;
+  }
+
+  .description span {
+    font-family: "La Belle Aurore", sans-serif;
+    color: #e87eff;
+  }
+
+  

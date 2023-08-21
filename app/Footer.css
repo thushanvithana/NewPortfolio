@@ -1,0 +1,24 @@
+#footer {
+  background: #000000;
+  padding: 8px 30px 50px;
+}
+
+#footer .navigate {
+  width: 100%;
+  height: 30px;
+  display: flex;
+}
+
+#footer .col-1 {
+  width: 90px;
+  margin-left: 390px;
+}
+#footer .bottom-nav span {
+  display: block;
+  padding: 27px 0;
+}
+#footer .bottom-nav span {
+  color: #919496;
+  font-size: 16px;
+  line-height: 18px;
+}

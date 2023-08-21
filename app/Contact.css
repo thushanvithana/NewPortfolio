@@ -1,0 +1,45 @@
+/* contact section starts here */
+.contact-section {
+  width: 90%;
+  margin: 50px auto 0;
+  position: relative;
+  margin-left: 110px;
+}
+.contact-section h2 {
+  font-size: 2rem;
+  color: #e87eff;
+}
+.contact-section p {
+  width: 85%;
+  font-size: 1.2rem;
+  color: #adabab8b;
+}
+.contact-section span {
+  font-family: "La Belle Aurore", cursive;
+  color: #e87eff;
+}
+.contact-section h1 {
+  font-size: 10rem;
+  color: #3a39397c;
+  position: absolute;
+  left: -10px;
+  z-index: -999;
+  opacity: 0.5;
+  margin-left: 20px;
+}
+form {
+  width: 100%;
+  line-height: 4.5rem;
+  font-family: "Roboto", sans-serif;
+}
+input[type="text"],
+input[type="email"] {
+  width: 100%;
+  height: 50px;
+  outline: none;
+  border: none;
+  background: #3a3939;
+  padding: 5px 22px;
+  border-right: 11px solid #ce19f7;
+  color: #adabab;
+}

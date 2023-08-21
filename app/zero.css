@@ -1,0 +1,168 @@
+/* Media queries for responsiveness */
+@media screen and (min-width: 1024px) {
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .nav-center {
+    max-width: 1190px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .links-container {
+    height: auto !important;
+  }
+  ul.nav-links {
+    display: flex;
+    height: auto;
+  }
+  ul.nav-links li {
+    padding: 0;
+    width: 100px;
+  }
+  .toggle-icon {
+    display: none;
+  }
+  .resume {
+    display: block;
+  }
+  .social-icons {
+    display: none;
+  }
+  .icons {
+    display: block;
+  }
+  .hero-img img {
+    display: block;
+  }
+  .about-desc h2 {
+    font-size: 4rem;
+  }
+  .about-desc img {
+    width: 80px;
+  }
+  .about-desc #name {
+    max-width: 700px;
+    font-size: 6rem;
+  }
+  .about-desc #job {
+    font-size: 2.5rem;
+  }
+  .contact-button {
+    max-width: 220px;
+  }
+  .achievement h1 {
+    font-size: 4.5rem;
+  }
+  .ach {
+    width: 200px;
+  }
+  /* section 2 */
+  .my-self {
+    width: 400px;
+    font-size: 2.5rem;
+    top: -130px;
+    left: -55px;
+  }
+  .my-self::before,
+  .my-self::after {
+    display: block;
+  }
+  /* switch btn */
+  .switch-wrapper {
+    display: block;
+  }
+  /* my story starts here */
+  .para1 img {
+    display: block;
+  }
+  .my-about-wrapper .about {
+    font-size: 12rem;
+  }
+  .my-story p {
+    width: 500px;
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+  }
+  .para2-wrapper {
+    align-items: center;
+    flex-direction: row;
+  }
+  /* section 3 starts here */
+  .section-3 {
+    width: 85%;
+    margin: 150px auto 70px;
+    min-height: 100vh;
+  }
+  .text-skills {
+    font-size: 20rem;
+  }
+  .acquired-skills {
+    justify-content: space-between;
+    flex-direction: row;
+  }
+  .acquired-skills h2 {
+    font-size: 2rem;
+  }
+  .description p {
+    width: 690px;
+    margin: 20px 0;
+    font-size: 1.2rem;
+  }
+  .acquired-skills img {
+    width: 35%;
+    margin-top: 0;
+  }
+  /* blog section starts here */
+  .blog-description {
+    width: 95%;
+    margin: 0 auto 50px;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+  }
+  .blog-heading {
+    width: 600px;
+  }
+  .blog-heading h3 {
+    font-size: 2rem;
+  }
+  .blog-heading p {
+    font-size: 1.2rem;
+  }
+  .blog-section h1 {
+    font-size: 20rem;
+    top: -250px;
+  }
+  .blog-wrapper {
+    width: 350px;
+  }
+  .blog-wrapper h3 {
+    font-size: 2rem;
+  }
+
+  /* contact section starts here */
+
+  .projects {
+    margin: 0 auto;
+    flex-direction: row;
+  }
+  .projects-desc {
+    width: 500px;
+    color: #adabab;
+  }
+  .projects h3 {
+    font-size: 2rem;
+    color: #e87eff;
+    margin: 0 0 15px 0;
+  }
+  .projects iframe {
+    width: 560px;
+    height: 315px;
+  }
+}
+
+
+
